@@ -1,0 +1,20 @@
+.filmitem img{
+width:100px;
+float:left;
+}
+
+.filmitem{
+overflow:hidden;
+padding:10px;
+}
+
+.filmdetail{
+position:fixed;
+top:0;
+right:100px;
+background:yellow;
+width:200px;
+height:300px;
+overflow:hidden;
+
+}

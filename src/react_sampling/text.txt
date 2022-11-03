@@ -1,0 +1,109 @@
+ReactDOM.Component 
+import React,{Component} from 'react'
+import './css/active.css'
+export default class App extends React.Component{}
+const name='yi'
+const obj={}
+<div style={obj}>111</div>
+<div style={{color:'blue'}}>222</div>
+var obj={backgroundColor=:'red'}
+fontSize='30px'
+{10>20?'aaa':'bbb'}
+<div class='active'>33</div>
+let v=this.state.myRef.current.value
+newlist.push({id:1,mytext:v})
+this.setState({list:newlist})
+onClick={this.handleClick3}
+handleClick3=()=>{cl(this.a)}
+<button onClick={()=>cl(this.a)}>add1</button>
+<button onClick={this.handleClick2.bind(this)}>add2</button>
+handleClick2(){cl(this.a)}
+<button onClick={()=>this.handleClick4()}>add4</button>
+handleClick4(){cl(this.a)}
+this.setState({list:newlist})
+bool=!this.state.bool
+{this.state.bool?'aa':'bb'}
+{this.state.list.map(i=><li key={i.id}>{i}</li>)}
+export default classname
+{this.state.lis.length===0?<div>暂</div>:null}
+{this.state.lis.length===0 && <div>暂无事项</div>}
+let newList=this.state.list.slice()
+let newList=this.state.list.concat()   
+newList.splice(index,1)
+this.myRef.current.value=''
+onClick={this.handleDelClick.bind(this, index)()}
+onClick={() => this.handleDelClick(index)}
+dangerouslySetInnerHTML={{__html:item.mytext}}
+handleInupt=(event)=>{console.log('input',event.target.value)
+{this.state.bool?'a':'b'}
+{this.state.list.map(i=><li key={i}>{i}</li>)}
+this.setState({this.state.count+1,()=>{console.log(this.state.count)}
+setTimeout(()=>{},0)
+import BetterScroll from "better-scroll";
+<div class="wrapper">
+new BetterScroll(".wrapper")<ul class="content">
+console.log(document.querySelectorAll('li'))
+<div style={{ display: "flex" }}>
+<Navabar title="首页" leftside={false} />
+let { title, leftside } = this.props;
+{bool && <button>goback</button>}
+static propTypes = {title: PropTypes.string}
+import PropTypes from "prop-types"
+Navabar.propTypes = {sidebar: PropTypes.bool}
+a = 1;static a = 111;console.log(test.a, obj.a);
+static defaultProps = {leftside: true,};
+this.myRef = React.createRef();<div ref={this.myRef} />
+var styleobj=position==='left'?{...obj,...obj1}:{...obj,...obj2}
+<input value='user name' defaultValue='user name'/>
+onChange={(evt)=>{console.log(evt.target.value)
+this.setState({username:evt.target.value
+<input value=this.state.myText onChange={()=>{this.setState({myText:evt.target.value}}})/>
+Sidebar.defaultProps Sidebar.proptypes
+let { bg, position } = props;
+<div style={{fontSize: ‘30px’}}></div>
+<input ref={this.myusername}value='input name'/>
+<input value={this.state.username} onChange={(evt)=>{console.log(evt.target.value)}}/>
+axios({url:'',header:{"x-Client-Info":"",'x-Host':''}}).then(res=>{})
+item.name.toUpperCase().includes(this.state.myText.toUpperCase
+	onClick={()=>{this.a(index)}} a(index){}
+	onClick={this.a.bind(this, index)} a(index){}
+	h= () => {this.setState({isShow: !this.state.isShow,});<Navbar h={this.h}/>
+	num==0?<Film />:(num==1?<Cinema />:(num==2?<Center />:null))
+	input value={name} button onclick setState name:
+	switch (num){case 1:return ;case 2: return ;}
+	<Navbar current={this.state.current}/> 
+	const [state,dispatch]=usereducer(reducer,initialState)
+	const reducer=(prevState,action)=>{return}
+	const GlobalContext = React.createContext();
+	<GlobalContext.Consumer>
+	const value=useContext(GlobalContext)
+	{...obj}
+	var mycount = useRef(0); mycount.current++;
+	const name = useRef();<input ref={name} />name.current.value = ""
+	const getCinemaList = useMemo(()=>expression,[])
+	const handleClickAdd = useCallback(() => {}, []);
+	window.onresize = () =>{  };
+	var time = setInterv
+	al(() => {}, 1000);clearInterval(time);
+	useEffect(() => {return () => {}}, [])
+	a.substring(0, 1).toUpperCase() + a.substring(1)
+	const [list,setlist]=useState([])
+	Swiper.use([Navigation, Pagination]);
+	componentDidMount() {new Swiper(".swiper", {pagination: {el: ".swiper-pagination",clickable: true,},});}
+	import React, { PureComponent } from "react";
+	shouldComponentUpdate(nextProps, nextState)
+	JSON.stringify(this.state.name) !== JSON.stringify(nextState.name)
+	UNSAFE_componentWillUpdate
+	componentDidUpdate()
+	static getDerivedStateFromProps(props, state)
+	getSnapshotBeforeUpdate = (prevProps, prevState) => {return value};componentDidUpdate(prevProps, prevState,value) {}
+	componentWillUnmount()
+	UNSAFE_componentWillReceiveProps(nextProps)
+	componentWillReceiveProps(nextProps)
+	Number(evt.target.value)
+	shouldComponentUpdate(nextProps,nextState)
+	document.getElementById("name").innerHTML
+	new BetterScroll("#wrapper")
+	{this.props.children}
+	function useA() {const [a, setA] = useState([]);return { a };}const { a } = useA();
+	function useL(list, text) {const getL = useMemo(() =>,[list, text]);return { getL };const { getL } = useL(list, text);

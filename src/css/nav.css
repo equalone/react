@@ -1,0 +1,7 @@
+.nav li {
+  background-color: red;
+  padding: 8px 15px;
+  float: left;
+  list-style: none;
+  color: #fff;
+}

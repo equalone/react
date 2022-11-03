@@ -1,0 +1,103 @@
+	<GlobalContext.Consumer>
+	<Navbar current={this.state.current}/> 
+	JSON.stringify(this.state.name) !== JSON.stringify(nextState.name)
+	Number(evt.target.value)
+	Swiper.use([Navigation, Pagination]);
+	UNSAFE_componentWillReceiveProps(nextProps)
+	UNSAFE_componentWillUpdate
+	a.substring(0, 1).toUpperCase() + a.substring(1)
+	al(() => {}, 1000);clearInterval(time);
+	componentDidMount() {new Swiper(".swiper", {pagination: {el: ".swiper-pagination",clickable: true,},});}
+	componentDidUpdate()
+	componentWillReceiveProps(nextProps)
+	componentWillUnmount()
+	const GlobalContext = React.createContext();
+	const [list,setlist]=useState([])
+	const [state,dispatch]=usereducer(reducer,initialState)
+	const getCinemaList = useMemo(()=>expression,[])
+	const handleClickAdd = useCallback(() => {}, []);
+	const name = useRef();<input ref={name} />name.current.value = ""
+	const reducer=(prevState,action)=>{return}
+	const value=useContext(GlobalContext)
+	document.getElementById("name").innerHTML
+	function useA() {const [a, setA] = useState([]);return { a };}const { a } = useA();
+	function useL(list, text) {const getL = useMemo(() =>,[list, text]);return { getL };const { getL } = useL(list, text);
+	h= () => {this.setState({isShow: !this.state.isShow,});<Navbar h={this.h}/>
+	import React, { PureComponent } from "react";
+	input value={name} button onclick setState name:
+	new BetterScroll("#wrapper")
+	onClick={()=>{this.a(index)}} a(index){}
+	onClick={this.a.bind(this, index)} a(index){}
+	shouldComponentUpdate(nextProps, nextState)
+	static getDerivedStateFromProps(props, state)
+	switch (num){case 1:return ;case 2: return ;}
+	useEffect(() => {return () => {}}, [])
+	var mycount = useRef(0); mycount.current++;
+	var time = setInterv
+	window.onresize = () =>{  };
+	{...obj}
+<Navabar title="首页" leftside={false} />
+<button onClick={()=>cl(this.a)}>add1</button>
+<button onClick={()=>this.handleClick4()}>add4</button>
+<div class="wrapper">
+<div class='active'>33</div>
+<div style={obj}>111</div>
+<div style={{ display: "flex" }}>
+<div style={{color:'blue'}}>222</div>
+<div style={{fontSize: ‘30px’}}></div>
+<input ref={this.myusername}value='input name'/>
+<input value='user name' defaultValue='user name'/>
+<input value=this.state.myText onChange={()=>{this.setState({myText:evt.target.value}}})/>
+<input value={this.state.username} onChange={(evt)=>{console.log(evt.target.value)}}/>
+Navabar.propTypes = {sidebar: PropTypes.bool}
+ReactDOM.Component 
+Sidebar.defaultProps Sidebar.proptypes
+a = 1;static a = 111;console.log(test.a, obj.a);
+axios({url:'',header:{"x-Client-Info":"",'x-Host':''}}).then(res=>{})
+bool=!this.state.bool
+console.log(document.querySelectorAll('li'))
+const name='yi'
+const obj={}
+dangerouslySetInnerHTML={{__html:item.mytext}}
+export default class App extends React.Component{}
+export default classname
+fontSize='30px'
+handleClick2(){cl(this.a)}
+handleClick3=()=>{cl(this.a)}
+handleClick4(){cl(this.a)}
+handleInupt=(event)=>{console.log('input',event.target.value)
+import './css/active.css'
+import BetterScroll from "better-scroll";
+import PropTypes from "prop-types"
+import React,{Component} from 'react'
+item.name.toUpperCase().includes(this.state.myText.toUpperCase
+let newList=this.state.list.concat()   
+let newList=this.state.list.slice()
+let v=this.state.myRef.current.value
+let { bg, position } = props;
+let { title, leftside } = this.props;
+new BetterScroll(".wrapper")<ul class="content">
+newList.splice(index,1)
+newlist.push({id:1,mytext:v})
+onChange={(evt)=>{console.log(evt.target.value)
+onClick={() => this.handleDelClick(index)}
+onClick={this.handleClick3}
+onClick={this.handleDelClick.bind(this, index)()}
+setTimeout(()=>{},0)
+static defaultProps = {leftside: true,};
+static propTypes = {title: PropTypes.string}
+this.myRef = React.createRef();<div ref={this.myRef} />
+this.myRef.current.value=''
+this.setState({list:newlist})
+this.setState({this.state.count+1,()=>{console.log(this.state.count)}
+this.setState({username:evt.target.value
+var obj={backgroundColor=:'red'}
+var styleobj=position==='left'?{...obj,...obj1}:{...obj,...obj2}
+{10>20?'aaa':'bbb'}
+{bool && <button>goback</button>}
+{this.state.bool?'a':'b'}
+{this.state.bool?'aa':'bb'}
+{this.state.lis.length===0 && <div>暂无事项</div>}
+{this.state.lis.length===0?<div>暂</div>:null}
+{this.state.list.map(i=><li key={i.id}>{i}</li>)}
+{this.state.list.map(i=><li key={i}>{i}</li>)}
